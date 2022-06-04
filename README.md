@@ -21,7 +21,7 @@ Use an intermediate dataset with name *<file_name>*
 scrapy runspider scraping_casa_it.py -o <file_name>.csv -t csv
 ```
 
-With this step, you get:
+With this step, you get a dataset called *<file_name>.csv*:
 - name
 - mq
 - address
@@ -38,7 +38,7 @@ With this step, you get:
 python3 get_lat_long_dist.py <file_name>.csv
 ```
 
-With this step, you get:
+With this step, you get a dataset called *<file_name>_updated.csv*:
 - latitude
 - longitude
 - altitude
