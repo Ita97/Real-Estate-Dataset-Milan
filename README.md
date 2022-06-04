@@ -21,7 +21,7 @@ Use an intermediate dataset with name *<file_name>*
 scrapy runspider scraping_casa_it.py -o <file_name>.csv -t csv
 ```
 
-With this step, you get a dataset called *<file_name>.csv*:
+With this step, you get a dataset called *<file_name>.csv* and the following attributes for each house:
 - name
 - mq
 - address
@@ -38,7 +38,7 @@ With this step, you get a dataset called *<file_name>.csv*:
 python3 get_lat_long_dist.py <file_name>.csv
 ```
 
-With this step, you get a dataset called *<file_name>_updated.csv*:
+With this step, you get a dataset called *<file_name>_updated.csv* and the following attributes in addition:
 - latitude
 - longitude
 - altitude
@@ -46,7 +46,7 @@ With this step, you get a dataset called *<file_name>_updated.csv*:
 
 ## Final Reminder
 
-Do you need other cities or other difference distances?
+> Do you need other cities or a different distance?
 *Pls, modify the code as you prefer!*
 
 In *scraping_casa_it.py*, change <city> variable to obtain another dataset in a different italian city, you can also get more pages (*default 8*)
