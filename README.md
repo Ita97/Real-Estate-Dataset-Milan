@@ -11,7 +11,7 @@ pip install -r prerequisites.txt
 ```
 
 ## Steps
-Use an intermediate dataset with name <file_name>
+Use an intermediate dataset with name *<file_name>*
 
 ### Step #1
 
@@ -25,7 +25,7 @@ With this step, you get:
 - name
 - mq
 - address
-- energetic class
+- energy class (HEC)
 - number of bathrooms
 
 *Stop here if you do not need anything else!*
