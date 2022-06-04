@@ -28,7 +28,7 @@ With this step, you get a dataset called *<file_name>.csv* and the following att
 - energy class (HEC)
 - number of bathrooms
 
-> ***Stop here,** if you do not need anything else!*
+> **Stop here, _if you do not need anything else!_**
 
 ### Step #2 
 
