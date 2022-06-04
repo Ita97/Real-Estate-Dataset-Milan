@@ -15,7 +15,7 @@ Use an intermediate dataset with name **<file_name>**
 
 ### Step #1
 
-*Scrape Casa.it website!* 
+*Scrape Casa.it website, with **Scrapy**!* 
 
 ```bash
 scrapy runspider scraping_casa_it.py -o <file_name>.csv -t csv
@@ -32,7 +32,7 @@ With this step, you get a dataset called *<file_name>.csv* and the following att
 
 ### Step #2 
 
-*Georeference all the real estates!*
+*Georeference all the real estates, with **Geopy**!*
 
 ```bash
 python3 get_lat_long_dist.py <file_name>.csv
