@@ -2,6 +2,7 @@ import pandas as pd
 from geopy.geocoders import Nominatim
 import geopy.distance
 from math import isnan
+import sys
 
 
 # using the address, find the geolocalization of the house
